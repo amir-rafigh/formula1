@@ -65,10 +65,25 @@
             list-style-type: none;
             color: white;
            
-}
+        }
         .ul-sidebar-close{
             display: none !important;
 
         }
 
+}
+
+
+@media (max-width:767px){
+    .img-logo{
+        flex-direction: column;
+        align-items: center;
     }
+
+    main{
+        .banner{
+            grid-template-areas: "one""two""three""four""five""six";
+            grid-template-rows: repeat(6,400px);
+        }
+    }
+}
