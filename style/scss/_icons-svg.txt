@@ -1,0 +1,29 @@
+ user
+ <i class="fa-solid fa-user"></i>
+
+//sign up 
+<i class="fa-solid fa-right-to-bracket"></i>
+
+//contact
+<i class="fa-solid fa-phone"></i>
+
+//basket
+<i class="fa-solid fa-basket-shopping"></i>
+
+//flag
+<i class="fa-solid fa-flag"></i>
+
+//motor
+<i class="fa-solid fa-motorcycle"></i>
+
+//car
+<i class="fa-solid fa-car"></i>
+
+//cup
+<i class="fa-solid fa-trophy"></i>
+
+//home
+<i class="fa-solid fa-house"></i>
+
+//search 
+<i class="fa-solid fa-magnifying-glass"></i>
