@@ -2,3 +2,12 @@
     font-family:'parastoo';
     src: url("../fonts/Parastoo.ttf")format("truetype");
 }
+
+
+@mixin border($x){
+    border-radius: $x;
+    -webkit-border-radius: $x;
+    -moz-border-radius: $x;
+    -ms-border-radius: $x;
+    -o-border-radius: $x;
+}
