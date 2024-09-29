@@ -144,6 +144,7 @@ main{
             // height: 1630px;
             color: rgba(255, 255, 255, 0.767);
             @include border(1rem);
+            padding-bottom: 1rem;
 
 
             .newss{
@@ -495,7 +496,44 @@ main{
 
 
 
+footer{
+    background-color: #1b1b1b;
+    color: white;
 
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        justify-content: space-between;
+
+        .container-footer-content{
+            display: flex;
+            // background-color: green;
+            justify-content: space-evenly;
+
+            .text{
+                h1{
+                    margin-top: 2.5rem;
+                }
+            }
+        }
+
+        .container-footer-list{
+            padding-top: 3rem;
+            ul{
+
+                display: flex;
+                list-style-type: none;
+                justify-content: center;
+                column-gap: 1.5rem;
+                cursor: pointer;
+            }
+            ul li:hover{
+                color: orange;
+            }
+        }
+    }
+}
 
 
 

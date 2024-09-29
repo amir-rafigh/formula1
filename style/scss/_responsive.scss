@@ -98,6 +98,22 @@
 
         }
 
+
+        .container-footer{
+            text-align: center;
+        }
+        .container-footer-content{
+            flex-direction: column;
+            align-items: center;
+        }
+        .container-footer-list{
+            ul{
+                flex-direction: column;
+                align-items: center;
+                row-gap: 1.5rem;
+            }
+        }
+
 }
 
 
